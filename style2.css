@@ -1,0 +1,103 @@
+html{
+    width: inherit;
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient( rgb(255, 0, 242),rgb(95, 0, 219));
+    overflow: hidden;
+}
+
+
+
+form label {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.DivDoTitulo {
+    border: none;
+    background-image: linear-gradient(rgb(0, 255, 200) , rgb(103, 228, 0));
+    margin: auto;
+    padding : 0em 100px ;
+    
+}
+
+div{
+    font-size: 20px;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+    border: rgb(0, 0, 0) 2px solid;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: center;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+button{
+    margin: auto;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(0, 255, 21) , rgb(0, 255, 157))  ;
+    padding: 5px;
+}
+
+
+.ButãoDeVoltar {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    
+}
+
+
+input {
+    color: black;
+    }
+
+    input[type=text] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px ;
+        
+    }
+        input[type=email] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px ;
+        }
+        input[type=password] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px ;
+    }
+    input[type=date] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        
+        font-size: 15px;
+    }

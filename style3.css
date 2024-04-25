@@ -1,0 +1,93 @@
+html{
+    width: inherit;
+    height: 100%;
+}
+
+body{
+    background-image: url("FotuDoGaspar.jpeg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+
+form label {
+    text-align: center;
+    color : rgb(252, 211, 249)
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color : rgb(252, 211, 249)
+}
+
+.DivDoTitulo {
+    border: none;
+    /* background-image: linear-gradient(rgb(76, 0, 255) , rgb(23, 0, 228), rgb(124, 0, 128)); */
+    margin: auto;
+    padding : 0em 100px ;
+    
+}
+
+div{
+    font-size: 20px;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(121, 121, 121, 0);
+    border: rgb(0, 0, 0) 2px solid;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: center;
+    border: none;
+    padding: 10px;
+}
+
+button{
+    margin: auto;
+    border: none;
+    /* color: rgb(0, 0, 0); */
+    background-image: radial-gradient(  rgb(252, 211, 249))   ;
+   
+}
+
+
+.ButãoDeVoltar {
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    
+}
+
+
+input {
+    color: black;
+    }
+
+    input[type=text] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px ;
+        
+    }
+    
+        input[type=password] {
+        background-color: rgb(255, 255, 255) ;
+        margin: auto;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px ;
+    }
+    

@@ -1,0 +1,111 @@
+
+html{
+    width: inherit;
+    height: 100%;
+}        
+
+    body{
+        width: 100%;
+        background-image: url("imagemJogos.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        overflow: hidden;
+        background-color: black;
+       
+    }
+  
+
+   
+
+    
+    
+    .catalogo {
+        font-size: 20px;
+    }
+   
+   h2{
+    text-align: center;
+   }
+
+div{
+    color: rgb(0, 0, 0);
+    background-color: rgba(121, 121, 121, 0.75);
+    border: #00fff2cc 2px solid;
+    width: fit-content;
+    height: fit-content;
+    position: center;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    background-color: rgba(121, 121, 121, 0.75);
+    border: #00fff2cc 2px solid;
+    width: fit-content;
+    height: fit-content;
+    position: center;
+    margin: auto;
+    padding: 10px 240px;
+    border-radius: 7px;
+    
+}
+   h3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+       
+    }
+
+
+    .BotãoDoSteam {     
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url("imagem_steam.jfif");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 70px 120px;
+        margin: auto;  
+       
+        
+    }
+.DivDoBotãoDoSteam {
+    border: none;
+    background-color: rgba(240, 255, 255, 0);
+    
+}
+
+   .LinkDoSteam{
+    background-color: rgba(240, 248, 255, 0);
+    padding: 70px 140px;
+    margin: auto;
+        
+    }
+   
+    .SaiteDeCadastro {
+        margin: auto;
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(0, 0, 255) ;
+    }
+
+
+    .textoDoBotãoDeLogin{
+        padding: 10px 10px;
+        border: none;
+        background-color: rgba(250, 235, 215, 0);
+        font-size: 17px;
+
+
+    }
+
+    .SaiteDeLogin{
+        margin: auto;
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(0, 0, 255) ;
+    }
+    
